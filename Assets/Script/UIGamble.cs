@@ -109,6 +109,10 @@ public class UIGamble : MonoBehaviour
                     candidateIndex.Add(curIndex);
                 }
             }
+            else
+            {
+                candidateIndex.Add(curIndex);
+            }
         }
 
         foreach (Int32 index in candidateIndex)
